@@ -73,7 +73,7 @@ CREATE TABLE `NxtCoinAccountInfo` (
 	`Userpk` int(10) NOT NULL, 
 	`pk` int(10) NOT NULL AUTO_INCREMENT, 
 	`date` timestamp NULL, 
-	`timestamp` timestamp NULL, 
+	`modified` timestamp NULL, 
 	`accountNumber` varchar(255) NOT NULL, 
 	`accountBalance` double, 
 	PRIMARY KEY (`pk`)
