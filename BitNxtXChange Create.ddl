@@ -41,6 +41,7 @@ CREATE TABLE NxtTransaction (
 	`type` int(10), 
 	`amount` double NOT NULL,
 	`transactionHash` varchar(255),
+	`address` varchar(255),
 	PRIMARY KEY (`pk`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -54,6 +55,7 @@ CREATE TABLE BtcTransaction (
 	`type` int(10), 
 	`amount` double NOT NULL,
 	`transactionHash` varchar(255),
+	`address` varchar(255),
 	PRIMARY KEY (pk)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
